@@ -14,12 +14,25 @@ main {
     background-color:lightgrey;
 }
 /*
-    []- Look up the CSS `background-image` property to learn how to use the provided `record.png`
+    [x]- Look up the CSS `background-image` property to learn how to use the provided `record.png`
     as the background image on your page with a relative path.
  */
-
+body {
+    background-image: url('record.png');
+/*  [x]- Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image.*/
+    background-repeat:repeat;
 /*
-[]- Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image.
-[]- Look up CSS `margin` and `padding`. 
-  []- Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
-  []- Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) */
+[x]- Look up CSS `margin` and `padding`.
+  [x]- Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) */
+  margin:0px;
+/*  [x]- Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.) */
+padding: 1em;
+}
+
+.list {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+
+}
